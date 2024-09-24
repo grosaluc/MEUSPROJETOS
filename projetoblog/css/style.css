@@ -1,0 +1,38 @@
+:root{
+    --principal: #f9f8ff;
+    --azul-turquesa: #5ce1e6;
+    --azul: #5271ff;
+    --amarelo: #f6e500;
+    --preto: #000000;
+    --rosa: #f70bb7;
+    --verde: #7ed957;
+    --cor-de-texto: #252525;
+}
+
+. container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+. body {
+    font-family: 'Poppin', sans-serif;
+    line-height: 1.6;
+}
+
+.blog__heading__strong{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--cor-de-texto);  
+    letter-spacing: 0.5px; 
+}
+
+.blog__heading__h1{
+    font-size: 2.5rem;
+    color: var(--cor-de-texto); 
+    font-weight: 700;
+    line-height: 2.4rem;
+    text-transform: uppercase;  
+}
+
+
+
