@@ -9,12 +9,12 @@
     --cor-de-texto: #252525;
 }
 
-. container {
+.container {
     margin: 0 auto;
     width: 960px;
 }
 
-. body {
+.body {
     font-family: 'Poppin', sans-serif;
     line-height: 1.6;
 }
