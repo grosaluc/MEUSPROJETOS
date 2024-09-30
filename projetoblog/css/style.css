@@ -2,36 +2,53 @@
     --principal: #f9f8ff;
     --azul-turquesa: #5ce1e6;
     --azul: #5271ff;
-    --amarelo: #f6e500;
     --preto: #000000;
-    --rosa: #f70bb7;
     --verde: #7ed957;
-    --cor-de-texto: #252525;
+    --cinza-claro: #d9d9d9;
+    --cinza-medio: #a6a6a6;
+    --cinza-escuro: #737373;
 }
+
+.chewy-regular {
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+} 
 
 .container {
     margin: 0 auto;
     width: 960px;
 }
 
+.blog__links__navegacao {
+    writing-mode: vertical-rl;
+    float: right;
+}
+
 .body {
-    font-family: 'Poppin', sans-serif;
+    display: flex;
     line-height: 1.6;
+    background-image: url("assets/logocinza.png");
+    background-repeat: repeat;
 }
 
-.blog__heading__strong{
-    font-size: 1rem;
-    font-weight: 700;
-    color: var(--cor-de-texto);  
+.blog__heading__strong {
+    font-family: "Chewy", system-ui;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--preto);  
     letter-spacing: 0.5px; 
+    text-align: center;
 }
 
-.blog__heading__h1{
+.blog__heading__h1 {
+    font-family: "Chewy", system-ui;
     font-size: 2.5rem;
-    color: var(--cor-de-texto); 
-    font-weight: 700;
+    color: var(--preto); 
+    font-weight: 400;
     line-height: 2.4rem;
-    text-transform: uppercase;  
+    text-align: center;
+    
 }
 
 
