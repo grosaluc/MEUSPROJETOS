@@ -7,49 +7,56 @@
     --cinza-claro: #d9d9d9;
     --cinza-medio: #a6a6a6;
     --cinza-escuro: #737373;
-}
-
-.chewy-regular {
-    font-family: "Chewy", system-ui;
-    font-weight: 400;
-    font-style: normal;
+    --fonte-titulo:
 } 
 
-.container {
-    margin: 0 auto;
-    width: 960px;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.blog__links__navegacao {
-    writing-mode: vertical-rl;
-    float: right;
-}
-
-.body {
+.cabecalho{
     display: flex;
-    line-height: 1.6;
-    background-image: url("assets/logocinza.png");
-    background-repeat: repeat;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px
+}
+
+.cabecalho__menu{
+    display: flex;
+    column-gap: 50px;
+    font-family: 'Times New Roman', Times, serif
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 3px;
+    padding: 50px 0px;
+    background-color: var(--principal);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+
+.blog__heading__h1 {
+    color: var(--cinza-claro);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    
 }
 
 .blog__heading__strong {
-    font-family: "Chewy", system-ui;
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: var(--preto);  
-    letter-spacing: 0.5px; 
-    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.1px;
 }
 
-.blog__heading__h1 {
-    font-family: "Chewy", system-ui;
-    font-size: 2.5rem;
-    color: var(--preto); 
-    font-weight: 400;
-    line-height: 2.4rem;
-    text-align: center;
-    
-}
+
 
 
 
