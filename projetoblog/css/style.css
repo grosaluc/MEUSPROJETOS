@@ -42,8 +42,7 @@
 
 .cabecalho__menu__link:hover{
     transform: scale(1.1);
-    border: solid;
-    border-color: var(--azul-turquesa);
+    color: var(--cinza-escuro);
 }
 
 .cabecalho__redesocial{
