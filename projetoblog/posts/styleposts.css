@@ -1,0 +1,28 @@
+:root{
+    --principal: #f9f8ff;
+    --azul-turquesa: #5ce1e6;
+    --azul: #5271ff;
+    --preto: #000000;
+    --verde: #7ed957;
+    --cinza-claro: #d9d9d9;
+    --cinza-medio: #a6a6a6;
+    --cinza-escuro: #737373;
+} 
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    color: var(--preto);
+    background: rgb(92,225,230);
+    background: radial-gradient(circle, rgba(92,225,230,1) 50%, rgba(82,113,255,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px 20px;
+    border: solid transparent;
+    border-radius: 8px;
+    border-width: 1px;
+}
