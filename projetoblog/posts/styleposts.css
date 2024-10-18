@@ -9,20 +9,100 @@
     --cinza-escuro: #737373;
 } 
 
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.titulo {
-    color: var(--preto);
-    background: rgb(92,225,230);
-    background: radial-gradient(circle, rgba(92,225,230,1) 50%, rgba(82,113,255,1) 100%);
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+}
+
+.cabecalho__menu{
+    display: flex;
+    column-gap: 80px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.cabecalho__menu__link{
+    text-decoration: none;
+    color: var(--preto);
     border: solid transparent;
     border-radius: 8px;
     border-width: 1px;
+    padding: 10px 20px;
+    transition: 0.5s;
 }
+
+.cabecalho__menu__link:hover{
+    transform: scale(1.1);
+    background-color: var(--azul-turquesa);
+    color: var(--principal);
+}
+
+.cabecalho__redesocial{
+    display: flex;
+    column-gap: 20px;
+}
+
+.cabecalho__redesocial__tiktok,.cabecalho__redesocial__youtube{
+    display: block;
+    transition: 0.5s;
+}
+
+.cabecalho__redesocial__tiktok:hover,.cabecalho__redesocial__youtube:hover{
+    transform: scale(1.5);
+}
+
+.titulo{
+    color: var(--azul-turquesa);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 5px 0;
+}
+
+#post{
+    display: flex;
+    padding: 60px;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.post__text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    margin: auto 150px;
+    line-height: 1.5em;
+}
+
+.post__image{
+    margin: auto;
+    text-align: center;
+}
+
+.post__image__img{
+    border: 1px solid transparent;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: solid transparent;
+    border-radius: 8px;
+    border-width: 1px;
+    background: rgb(92,225,230);
+    background: radial-gradient(circle, rgba(92,225,230,1) 50%, rgba(82,113,255,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
