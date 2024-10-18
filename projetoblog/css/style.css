@@ -9,7 +9,7 @@
     --cinza-escuro: #737373;
 } 
 
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -20,7 +20,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 150px;
-    background-color: #FFFFFF;
 }
 
 .cabecalho__menu{
@@ -47,37 +46,55 @@
 }
 
 .cabecalho__redesocial{
+    display: flex;
+    column-gap: 20px;
+}
+
+.cabecalho__redesocial__tiktok,.cabecalho__redesocial__youtube{
+    display: block;
     transition: 0.5s;
 }
 
-.cabecalho__redesocial:hover{
-    transform: scale(1.1);
+.cabecalho__redesocial__tiktok:hover,.cabecalho__redesocial__youtube:hover{
+    transform: scale(1.5);
 }
 
-.titulo {
-    color: var(--preto);
-    background: rgb(92,225,230);
-    background: radial-gradient(circle, rgba(92,225,230,1) 50%, rgba(82,113,255,1) 100%);
+.titulo{
+    color: var(--cinza-escuro);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding: 10px 20px;
-    border: solid transparent;
-    border-radius: 8px;
-    border-width: 1px;
 }
 
-.main {
+#blog{
     display: flex;
-    flex-direction: row-reverse;
+    align-items: center;
+    padding: 60px;
     flex-wrap: wrap;
-    margin: 3px;
-    background-image: url("assets/logocinza.png");
-    background-repeat: repeat;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px;
+    gap: 80px;
 }
 
+.blog__box{
+    width: 200px;
+    height: 275px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: var(--preto);
+    background-color: var(--principal);
+    border: 0.3px solid transparent;
+    border-radius: 50px;
+    border-width: 1px;
+    background: rgb(92,225,230);
+    background: radial-gradient(circle, rgba(92,225,230,1) 50%, rgba(82,113,255,1) 100%);
+}
 
-
+.blog__img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
+    object-position: center;
+}
 
 .rodape{
     display: flex;
@@ -91,10 +108,6 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
-
-
-
-
 
 
 
