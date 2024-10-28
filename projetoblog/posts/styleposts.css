@@ -13,6 +13,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: var(--principal);
 }
 
 .cabecalho{
@@ -75,7 +76,9 @@
     padding: 60px;
     flex-wrap: wrap;
     gap: 50px;
+    background-color: var(--principal);
 }
+
 p{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -95,9 +98,10 @@ p{
 }
 
 .post__image__img{
-    text-align: center;
     border-radius: 20px;
     box-shadow: 5px 2.5px 2.5px var(--preto);
+    width: 200px;
+    height: 250px;
 }
 
 .post__image__video{
