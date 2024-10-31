@@ -43,7 +43,6 @@
     transform: scale(1.1);
     box-shadow: 10px 5px 5px var(--preto);
     background-color: #5ce1e64b;
-    color: var(--cinza-escuro);
 }
 
 .cabecalho__redesocial{
@@ -80,11 +79,11 @@
 .blog__box{
     width: 300px;
     height: 350px;
-    border: 0.25px solid var(--preto);
+    border: 0.25px solid var(--cinza-medio);
     border-radius: 20px;
     box-shadow: 10px 5px 5px var(--preto);
     text-align: center;
-    background: url("../assets/logocinza.png") repeat;
+    background: url("../assets/logocinza-transparente.png") repeat;
     background-size: 45%;
     background-position: bottom;
      
@@ -94,7 +93,7 @@
     height: 300px;
     width: auto;
     margin: 10px 0px;
-    border: 0.25px solid var(--preto);
+    border: 0.25px solid var(--cinza-medio);
     border-radius: 20px;
     text-align: center;
 }
@@ -118,6 +117,77 @@
     background: radial-gradient(circle, rgba(92,225,230,1) 50%, rgba(82,113,255,1) 100%);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+}
+
+#area__formulario{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+
+}
+
+.formulario{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.campo{
+    width: 500px;
+    height: 500px;
+    text-align: center;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: url("../assets/logocinza-transparente.png") repeat;
+    background-size: 30%;
+    background-position: center;
+    border: 0.2px solid transparent;
+    border-radius: 20px;
+}
+
+.campo__nome{
+    width: 400px;
+    height: 35px;
+    margin: 20px 2px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #5ce1e64b;
+    border: 0.2px solid var(--azul-turquesa);
+}
+
+.campo__email{
+    width: 400px;
+    height: 35px;
+    margin: 20px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #5ce1e64b;
+    border: 0.2px solid var(--azul-turquesa);
+}
+
+.campo__mensagem{
+    width: 500px;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #5ce1e64b;
+    border: 0.2px solid var(--azul-turquesa);
+}
+
+.btn_submit{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0.25px solid var(--cinza-escuro);
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.btn_submit:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 5px 5px var(--preto);
+    background-color: #5ce1e64b;
 }
 
 @media screen  and (max-width: 768px) {
