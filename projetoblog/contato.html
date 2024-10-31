@@ -36,13 +36,13 @@
     <!--FORMULÁRIO-->
     <section id="area__formulario">
 
-        <form class="formulario" autocomplete="on">
+        <form action="contato.php" method="post" class="formulario" autocomplete="on">
             <fieldset class="campo"> 
-                <label>Nome:</label><input class="campo__nome" type="text"><br> 
-                <label>Email:</label><input class="campo__email" type="email"><br>  
+                <label>Nome:</label><input class="campo__nome" type="text" id="nome" name="nome"><br> 
+                <label>Email:</label><input class="campo__email" type="email" id="email" name="email"><br>  
                 <label>Mensagem:</label><br>
                     <textarea class="campo__mensagem" cols="35" rows="8"></textarea><br>
-                <input class="btn_submit" type="submit" value="Enviar"><br>
+                <input class="btn_submit" type="submit" id="mensagem" name="mensagem" value="Enviar"><br>
             </fieldset>
         </form>
     </section>

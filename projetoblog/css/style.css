@@ -141,7 +141,7 @@
     background: url("../assets/logocinza-transparente.png") repeat;
     background-size: 30%;
     background-position: center;
-    border: 0.2px solid transparent;
+    border: 0.25px solid var(--cinza-medio);
     border-radius: 20px;
 }
 
@@ -153,6 +153,7 @@
     font-size: 18px;
     background-color: #5ce1e64b;
     border: 0.2px solid var(--azul-turquesa);
+    border-radius: 8px;
 }
 
 .campo__email{
@@ -163,6 +164,7 @@
     font-size: 18px;
     background-color: #5ce1e64b;
     border: 0.2px solid var(--azul-turquesa);
+    border-radius: 8px;
 }
 
 .campo__mensagem{
@@ -172,6 +174,7 @@
     font-size: 18px;
     background-color: #5ce1e64b;
     border: 0.2px solid var(--azul-turquesa);
+    border-radius: 8px;
 }
 
 .btn_submit{
