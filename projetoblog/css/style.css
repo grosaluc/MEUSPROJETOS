@@ -93,7 +93,7 @@
     height: 300px;
     width: auto;
     margin: 10px 0px;
-    border: 0.25px solid var(--cinza-medio);
+    border: 0.25px solid var(--cinza-escuro);
     border-radius: 20px;
     text-align: center;
 }
