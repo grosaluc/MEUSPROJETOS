@@ -28,12 +28,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		} else {
 			echo 'Erro ao enviar email.';
 		}
-	} 
-    else {
+	} else {
 		echo 'Dados inválidos.';
 	}
-} 
-else {
+} else {
 	echo 'Método de requisição inválido.';
 }
 ?>
