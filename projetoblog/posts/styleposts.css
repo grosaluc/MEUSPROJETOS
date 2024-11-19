@@ -20,14 +20,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 200px;
+    padding: 50px 250px 0px 250px;
 }
 
 .cabecalho__menu{
     display: flex;
-    column-gap: 80px;
+    column-gap: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
+    font-size: 16px;
 }
 
 .cabecalho__menu__link{
@@ -52,23 +52,23 @@
     column-gap: 20px;
 }
 
-.cabecalho__redesocial__tiktok,.cabecalho__redesocial__youtube{
+.cabecalho__redesocial__tiktok,
+.cabecalho__redesocial__youtube{
     display: block;
     transition: 0.5s;
 }
 
-.cabecalho__redesocial__tiktok:hover,.cabecalho__redesocial__youtube:hover{
+.cabecalho__redesocial__tiktok:hover,
+.cabecalho__redesocial__youtube:hover{
     transform: scale(1.5);
 }
 
 .titulo{
-    color: var(--azul-turquesa);
     font-family: Arial, Helvetica, sans-serif;
     color: var(--preto);
 	-webkit-text-stroke: 0.1px var(--azul-turquesa);
 	text-shadow: 0px 4px 4px var(--azul-turquesa);
     text-align: center;
-    margin: 5px 0;
 }
 
 #post{
@@ -123,4 +123,26 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
+
+@media (max-width: 866px){
+    
+    .cabecalho{
+        padding: 2em 2em;
+        } 
+
+    .post__text, .post__image, .p{
+        margin: 1em 1em;
+        padding: 0.5em 0.5em;
+        }
+
+        
+    .h1{
+        font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+        }
+
+    .p{
+        font-size: clamp(1em, 1em+1vw, 1.25em); 
+        }
+    }   
+    
 
