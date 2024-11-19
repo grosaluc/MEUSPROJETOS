@@ -25,7 +25,7 @@
 
 .cabecalho__menu{
     display: flex;
-    column-gap: 25px;
+    column-gap: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
@@ -139,7 +139,7 @@
 .campo{
     width: auto;
     height: 500px;
-    padding: 8px;
+    padding: 5px;
     text-align: center;  
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -175,7 +175,7 @@
 
 .campo__mensagem{
     width: 500px;
-    margin: 30px;
+    margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     background-color: #5ce1e64b;
@@ -213,6 +213,12 @@
     padding: 1em 1em;
     margin: 1em 1em;
     }
+
+.campo__nome, .campo__email, .campo__mensagem{
+    width: 90%;
+
+    
+}
 
 }   
 
