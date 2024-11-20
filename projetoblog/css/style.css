@@ -13,14 +13,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: var(--principal);
 }
 
 .cabecalho{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 250px 0px 250px;
+    padding: 50px 250px 0px 250px;   
 }
 
 .cabecalho__menu{
@@ -115,7 +114,7 @@
 .rodape{
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 20px;
     border: solid transparent;
     border-radius: 8px;
     border-width: 1px;
@@ -123,6 +122,52 @@
     background: radial-gradient(circle, rgba(92,225,230,1) 50%, rgba(82,113,255,1) 100%);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+}
+
+.cookies__msg{
+    width: 80%;
+    background-color: var(--verde);
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px var(--preto);
+    display: none;
+}
+
+.cookies__msg.mostrar{
+    display: block;
+}
+
+.cookies__msg,  
+.cookies__txt{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    
+}
+
+.cookies__btn{
+    margin-left: 20px;
+}
+
+.cookies__btn button{
+    background-color: var(--preto);
+    color: var(--principal);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 25px;
+    border: solid transparent;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.cookies__btn button:hover{
+    transform: scale(0.8);
 }
 
 #area__formulario{
