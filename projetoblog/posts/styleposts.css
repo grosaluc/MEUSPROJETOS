@@ -127,22 +127,32 @@ p{
 @media (max-width: 866px){
     
     .cabecalho{
-        padding: 2em 2em;
-        } 
-
-    .post__text, .post__image, .p{
-        margin: 1em 1em;
-        padding: 0.5em 0.5em;
-        }
-
+        display: block;
+        padding: 0;
+        margin-top: 25px;
+        }   
         
-    .h1{
-        font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+    .cabecalho__menu,
+    .cabecalho__redesocial{
+        justify-content: center;
+        padding: 5px;
         }
 
-    .p{
-        font-size: clamp(1em, 1em+1vw, 1.25em); 
+    #post{
+        padding: 10px ;
+    }
+
+    .post__text, .post__image{
+        line-height: 24px;
+        font-size: 14px; 
+        margin: 0;
+        padding: 0;
         }
+
+    .rodape{
+        font-size: 12px;
+    }
+
     }   
     
 

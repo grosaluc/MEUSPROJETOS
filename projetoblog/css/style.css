@@ -124,7 +124,7 @@
     font-size: 16px;
 }
 
-.cookies__msg{
+#cookies__msg{
     width: 80%;
     background-color: var(--verde);
     position: fixed;
@@ -247,11 +247,15 @@
 @media (max-width: 866px){
     
 .cabecalho{
-    padding: 2em 2em;
+    display: block;
+    padding: 0;
+    margin-top: 25px;
     } 
-    
-.h1{
-    font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+
+.cabecalho__menu,
+.cabecalho__redesocial{
+    justify-content: center; 
+    padding: 5px;
     }
 
 #area__formulario{
@@ -261,9 +265,10 @@
 
 .campo__nome, .campo__email, .campo__mensagem{
     width: 90%;
+    }
 
-    
-}
-
-}   
+.rodape{
+    font-size: 12px;
+    }      
+} 
 

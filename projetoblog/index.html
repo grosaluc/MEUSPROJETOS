@@ -9,8 +9,6 @@
     <title>AMIGUMIMO - amigurumi</title>
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
-    <!--JAVASCRIPT-->
-    <script src=”cookies.js”></script>
 </head>
 
 <body>
@@ -73,15 +71,27 @@
         <div class="rodape">AMIGUMIMO - Todos os direitos reservados - 2024</div>
     </footer>
 
-    <div class="cookies__msg" id="cookie__msg">
+    <div id="cookies__msg" style="display: none;">
         <div class="cookies__txt">
-            <p>Ao clicar em "OK", você consente que este site e seus parceiros utilizem cookies (ou tecnologias semelhantes) para personalizar sua experiência e nos ajudar a entender o uso do site. Esses cookies necessários são essenciais para o funcionamento do site.</p>
-
-            <div class="cookies__btn">
-                <button onclick="ok()">OK</button>
-            </div>
+            Este site e seus parceiros utilizam cookies (ou tecnologias semelhantes) para melhorar sua experiência e nos ajudar a entender o uso do site.
+        <div class="cookies__btn"><button onclick="aceitarCookies()">ACEITAR</button></div>
         </div>
     </div>
+
+    <script>
+        function checarCookies(){
+            if (!
+            localStorage.getItem('cookiesAceitos')) {
+                document.getElementById('cookies__msg').style.display = 'block';
+                }
+        }
+        function aceitarCookies(){
+            localStorage.setItem('cookiesAceitos', true);
+            document.getElementById('cookies__msg').style.display = 'none';
+        }
+        checarCookies();
+    </script>
+
 </body>
 
 </html>
