@@ -244,7 +244,7 @@
     background-color: #5ce1e64b;
 }
 
-@media (min-width: 350px) and (max-width: 767px){
+@media (min-width: 250px) and (max-width: 750px){
     
 .cabecalho{
     display: block;
