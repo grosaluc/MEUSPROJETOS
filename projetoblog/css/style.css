@@ -136,7 +136,7 @@
     display: none;
 }
 
-.cookies__msg.mostrar{
+.cookies__msg{
     display: block;
 }
 
@@ -244,7 +244,7 @@
     background-color: #5ce1e64b;
 }
 
-@media (max-width: 866px){
+@media (min-width: 350px) and (max-width: 767px){
     
 .cabecalho{
     display: block;
@@ -269,6 +269,6 @@
 
 .rodape{
     font-size: 12px;
-    }      
+    } 
 } 
 
